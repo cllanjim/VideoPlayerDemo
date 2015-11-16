@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "ViewController.h"
+#import "MainViewController.h"
 #import "KNavigationController.h"
 
 @interface AppDelegate ()
@@ -19,7 +19,7 @@
 #pragma mark - Private Methods
 - (KNavigationController *)nav{
     
-    ViewController *vc = [ViewController new];
+    MainViewController *vc = [MainViewController new];
     KNavigationController *nav = [[KNavigationController alloc] initWithRootViewController:vc];
     
     return nav;

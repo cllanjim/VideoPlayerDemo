@@ -6,7 +6,7 @@
 //  Copyright © 2015 guojunxu. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "KVideoViewController.h"
 #import "UINavigationController+KNavigationController.h"
 #import "VideoPlayerView.h"
 #import "UIView+KView.h"
@@ -14,19 +14,16 @@
 #define ImageURL @"http://video.kk8.cdn.bj.xs3cnc.com/2c/s/covers/wyopen_35.jpg"
 #define degreesToRadians(x) (M_PI * x / 180.0f)
 
-@interface ViewController ()<VideoPlayerViewDelegate>
+@interface KVideoViewController ()<VideoPlayerViewDelegate>
 
 @property (nonatomic, strong) UIBarButtonItem *backButton;
 @property (nonatomic, strong) UIBarButtonItem *shareButton;
 
 @property (nonatomic, strong) VideoPlayerView *playerView;
 
-
-@property (nonatomic, assign) BOOL isFullScreen;
-
 @end
 
-@implementation ViewController
+@implementation KVideoViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -187,7 +184,8 @@
 
 #pragma mark - IBAction
 - (void)backButtonDidPress:(UIBarButtonItem *)sender{
-    NSLog(@"%@", NSStringFromSelector(_cmd));
+
+    [self.navigationController popViewControllerAnimated:YES];
 }
 
 - (void)shareButtonDidPress:(UIBarButtonItem *)sender{
