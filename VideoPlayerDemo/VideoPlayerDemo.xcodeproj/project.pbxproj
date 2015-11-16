@@ -7,12 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		332215EA6C98B7D2B5593448 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA79274B7814FD7ECFD0EC69 /* libPods.a */; };
 		9A887B6E1BF9C3EA007AB2A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A887B6D1BF9C3EA007AB2A7 /* main.m */; };
 		9A887B711BF9C3EA007AB2A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A887B701BF9C3EA007AB2A7 /* AppDelegate.m */; };
 		9A887B741BF9C3EA007AB2A7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A887B731BF9C3EA007AB2A7 /* ViewController.m */; };
 		9A887B771BF9C3EA007AB2A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A887B751BF9C3EA007AB2A7 /* Main.storyboard */; };
 		9A887B791BF9C3EA007AB2A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A887B781BF9C3EA007AB2A7 /* Assets.xcassets */; };
 		9A887B7C1BF9C3EA007AB2A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A887B7A1BF9C3EA007AB2A7 /* LaunchScreen.storyboard */; };
+		9A887B891BF9C44D007AB2A7 /* KNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A887B841BF9C44D007AB2A7 /* KNavigationController.m */; };
+		9A887B8A1BF9C44D007AB2A7 /* UINavigationController+KNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A887B861BF9C44D007AB2A7 /* UINavigationController+KNavigationController.m */; };
+		9A887B8B1BF9C44D007AB2A7 /* UIView+KView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A887B881BF9C44D007AB2A7 /* UIView+KView.m */; };
+		9A887B8E1BF9CC54007AB2A7 /* VideoPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A887B8D1BF9CC54007AB2A7 /* VideoPlayerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,17 @@
 		9A887B781BF9C3EA007AB2A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A887B7B1BF9C3EA007AB2A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A887B7D1BF9C3EA007AB2A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A887B831BF9C44D007AB2A7 /* KNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNavigationController.h; sourceTree = "<group>"; };
+		9A887B841BF9C44D007AB2A7 /* KNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNavigationController.m; sourceTree = "<group>"; };
+		9A887B851BF9C44D007AB2A7 /* UINavigationController+KNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+KNavigationController.h"; sourceTree = "<group>"; };
+		9A887B861BF9C44D007AB2A7 /* UINavigationController+KNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+KNavigationController.m"; sourceTree = "<group>"; };
+		9A887B871BF9C44D007AB2A7 /* UIView+KView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+KView.h"; sourceTree = "<group>"; };
+		9A887B881BF9C44D007AB2A7 /* UIView+KView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+KView.m"; sourceTree = "<group>"; };
+		9A887B8C1BF9CC54007AB2A7 /* VideoPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoPlayerView.h; sourceTree = "<group>"; };
+		9A887B8D1BF9CC54007AB2A7 /* VideoPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoPlayerView.m; sourceTree = "<group>"; };
+		AA79274B7814FD7ECFD0EC69 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D56B09E47DECE7FEE4A4AE8E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		F3540FCD598F5F702018D14F /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				332215EA6C98B7D2B5593448 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +61,8 @@
 			children = (
 				9A887B6B1BF9C3EA007AB2A7 /* VideoPlayerDemo */,
 				9A887B6A1BF9C3EA007AB2A7 /* Products */,
+				F95D327B6FE50F450D52A5E5 /* Pods */,
+				DA40C96EA782F70481040146 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +81,14 @@
 				9A887B701BF9C3EA007AB2A7 /* AppDelegate.m */,
 				9A887B721BF9C3EA007AB2A7 /* ViewController.h */,
 				9A887B731BF9C3EA007AB2A7 /* ViewController.m */,
+				9A887B8C1BF9CC54007AB2A7 /* VideoPlayerView.h */,
+				9A887B8D1BF9CC54007AB2A7 /* VideoPlayerView.m */,
+				9A887B831BF9C44D007AB2A7 /* KNavigationController.h */,
+				9A887B841BF9C44D007AB2A7 /* KNavigationController.m */,
+				9A887B851BF9C44D007AB2A7 /* UINavigationController+KNavigationController.h */,
+				9A887B861BF9C44D007AB2A7 /* UINavigationController+KNavigationController.m */,
+				9A887B871BF9C44D007AB2A7 /* UIView+KView.h */,
+				9A887B881BF9C44D007AB2A7 /* UIView+KView.m */,
 				9A887B751BF9C3EA007AB2A7 /* Main.storyboard */,
 				9A887B781BF9C3EA007AB2A7 /* Assets.xcassets */,
 				9A887B7A1BF9C3EA007AB2A7 /* LaunchScreen.storyboard */,
@@ -79,6 +106,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		DA40C96EA782F70481040146 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA79274B7814FD7ECFD0EC69 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F95D327B6FE50F450D52A5E5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F3540FCD598F5F702018D14F /* Pods.debug.xcconfig */,
+				D56B09E47DECE7FEE4A4AE8E /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +130,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9A887B801BF9C3EA007AB2A7 /* Build configuration list for PBXNativeTarget "VideoPlayerDemo" */;
 			buildPhases = (
+				EA124B45BC64387AAC5BC7D9 /* Check Pods Manifest.lock */,
 				9A887B651BF9C3EA007AB2A7 /* Sources */,
 				9A887B661BF9C3EA007AB2A7 /* Frameworks */,
 				9A887B671BF9C3EA007AB2A7 /* Resources */,
+				9CD563BED86A26F6348BBEFF /* Embed Pods Frameworks */,
+				E7BD199B97DFCD6F139F47D2 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -144,14 +191,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9CD563BED86A26F6348BBEFF /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7BD199B97DFCD6F139F47D2 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA124B45BC64387AAC5BC7D9 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9A887B651BF9C3EA007AB2A7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A887B8A1BF9C44D007AB2A7 /* UINavigationController+KNavigationController.m in Sources */,
+				9A887B8B1BF9C44D007AB2A7 /* UIView+KView.m in Sources */,
 				9A887B741BF9C3EA007AB2A7 /* ViewController.m in Sources */,
+				9A887B891BF9C44D007AB2A7 /* KNavigationController.m in Sources */,
 				9A887B711BF9C3EA007AB2A7 /* AppDelegate.m in Sources */,
 				9A887B6E1BF9C3EA007AB2A7 /* main.m in Sources */,
+				9A887B8E1BF9CC54007AB2A7 /* VideoPlayerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,9 +358,11 @@
 		};
 		9A887B811BF9C3EA007AB2A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3540FCD598F5F702018D14F /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = VideoPlayerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.guojunxu.VideoPlayerDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -270,9 +371,11 @@
 		};
 		9A887B821BF9C3EA007AB2A7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D56B09E47DECE7FEE4A4AE8E /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = VideoPlayerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.guojunxu.VideoPlayerDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -298,6 +401,7 @@
 				9A887B821BF9C3EA007AB2A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
