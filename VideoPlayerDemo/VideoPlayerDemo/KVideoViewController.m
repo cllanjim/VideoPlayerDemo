@@ -7,6 +7,7 @@
 //
 
 #import "KVideoViewController.h"
+#import "DetailViewController.h"
 #import "UINavigationController+KNavigationController.h"
 #import "VideoPlayerView.h"
 #import "UIView+KView.h"
@@ -18,7 +19,7 @@
 
 @property (nonatomic, strong) UIBarButtonItem *backButton;
 @property (nonatomic, strong) UIBarButtonItem *shareButton;
-
+@property (nonatomic, strong) UIButton *goButton;
 @property (nonatomic, strong) VideoPlayerView *playerView;
 
 @end
@@ -33,6 +34,8 @@
 
     [self.view addSubview:self.playerView];
     self.playerView.videoCoverImageURL = ImageURL;
+    
+    [self.view addSubview:self.goButton];
 }
 
 - (void)viewWillAppear:(BOOL)animated{
@@ -192,6 +195,11 @@
     NSLog(@"%@", NSStringFromSelector(_cmd));
 }
 
+- (void)toNextPage:(id)sender{
+    DetailViewController *vc = [DetailViewController new];
+    [self.navigationController pushViewController:vc animated:YES];
+}
+
 #pragma mark - Delegate
 - (BOOL)shouldAutorotate{
     return NO;
@@ -229,6 +237,19 @@
     }
     
     return _playerView;
+}
+
+- (UIButton *)goButton{
+    if (!_goButton) {
+        _goButton = [[UIButton alloc] initWithFrame:CGRectMake(20, 320, 220, 40)];
+        [_goButton setTitle:@"Go to Detail Page" forState:(UIControlStateNormal)];
+        [_goButton setTitleColor:[UIColor blueColor] forState:(UIControlStateNormal)];
+        [_goButton addTarget:self
+                      action:@selector(toNextPage:)
+            forControlEvents:(UIControlEventTouchUpInside)];
+    }
+    
+    return _goButton;
 }
 
 @end

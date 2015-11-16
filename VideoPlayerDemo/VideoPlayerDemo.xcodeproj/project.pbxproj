@@ -19,7 +19,7 @@
 		9A887B8B1BF9C44D007AB2A7 /* UIView+KView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A887B881BF9C44D007AB2A7 /* UIView+KView.m */; };
 		9A887B8E1BF9CC54007AB2A7 /* VideoPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A887B8D1BF9CC54007AB2A7 /* VideoPlayerView.m */; };
 		9A887B951BF9D881007AB2A7 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A887B931BF9D881007AB2A7 /* MainViewController.m */; };
-		9A887B961BF9D881007AB2A7 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A887B941BF9D881007AB2A7 /* MainViewController.xib */; };
+		9A887B991BF9DC05007AB2A7 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A887B981BF9DC05007AB2A7 /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,7 +43,8 @@
 		9A887B8D1BF9CC54007AB2A7 /* VideoPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoPlayerView.m; sourceTree = "<group>"; };
 		9A887B921BF9D881007AB2A7 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		9A887B931BF9D881007AB2A7 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
-		9A887B941BF9D881007AB2A7 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		9A887B971BF9DC05007AB2A7 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		9A887B981BF9DC05007AB2A7 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		AA79274B7814FD7ECFD0EC69 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D56B09E47DECE7FEE4A4AE8E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		F3540FCD598F5F702018D14F /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -86,9 +87,10 @@
 				9A887B701BF9C3EA007AB2A7 /* AppDelegate.m */,
 				9A887B921BF9D881007AB2A7 /* MainViewController.h */,
 				9A887B931BF9D881007AB2A7 /* MainViewController.m */,
-				9A887B941BF9D881007AB2A7 /* MainViewController.xib */,
 				9A887B721BF9C3EA007AB2A7 /* KVideoViewController.h */,
 				9A887B731BF9C3EA007AB2A7 /* KVideoViewController.m */,
+				9A887B971BF9DC05007AB2A7 /* DetailViewController.h */,
+				9A887B981BF9DC05007AB2A7 /* DetailViewController.m */,
 				9A887B8C1BF9CC54007AB2A7 /* VideoPlayerView.h */,
 				9A887B8D1BF9CC54007AB2A7 /* VideoPlayerView.m */,
 				9A887B831BF9C44D007AB2A7 /* KNavigationController.h */,
@@ -194,7 +196,6 @@
 				9A887B7C1BF9C3EA007AB2A7 /* LaunchScreen.storyboard in Resources */,
 				9A887B791BF9C3EA007AB2A7 /* Assets.xcassets in Resources */,
 				9A887B771BF9C3EA007AB2A7 /* Main.storyboard in Resources */,
-				9A887B961BF9D881007AB2A7 /* MainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +256,7 @@
 			files = (
 				9A887B8A1BF9C44D007AB2A7 /* UINavigationController+KNavigationController.m in Sources */,
 				9A887B8B1BF9C44D007AB2A7 /* UIView+KView.m in Sources */,
+				9A887B991BF9DC05007AB2A7 /* DetailViewController.m in Sources */,
 				9A887B741BF9C3EA007AB2A7 /* KVideoViewController.m in Sources */,
 				9A887B951BF9D881007AB2A7 /* MainViewController.m in Sources */,
 				9A887B891BF9C44D007AB2A7 /* KNavigationController.m in Sources */,
